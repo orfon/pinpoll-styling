@@ -1,0 +1,21 @@
+## build
+
+scss main files oe3/fm4/etc. set variables used by _pinpoll.scss
+
+building:
+
+   scss oe3.scss:build/embed.css
+
+for development, call above once and then keep watching:
+
+scss oe3.scss:build/embed.css && scss --watch fm4.scss:build/embed.css
+
+## test
+
+start scss watcher and open tests/*.html over HTTP
+
+## update tests
+
+html files in tests/ need to be updated whenver pinpoll changes html. grab the html from pinpoll.com/embeded/ID, copy into file and replace embedPoll.js <script> with inject-dev-css.js
+
+css-data of the vue app is replaced by build/*.css before vue app starts.
