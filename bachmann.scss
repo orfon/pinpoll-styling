@@ -1,0 +1,19 @@
+/** 18-06-2019 1 **/
+
+$bg-color: #C7C7C7;
+$second-ci-color: #4DB757;
+$surrounding-bg-color: #CED0D4;
+$question-font-color: black;
+$dark-font: black;
+$soft-bg-color: #eaeaea;
+$bar-not-voted-bg: rgba(255,255,255,0.72);
+$ci-color: #4DB757;
+$bar-color: white;
+$accent-bar-color: $ci-color;
+$font-on-accent-bar-color: white;
+$font-on-ci-color:white;
+$quiz-correct: #151b15;
+$quiz-wrong: #d54d4d;
+$progress-default-color: $ci-color;
+
+@import "_pinpoll.scss";
