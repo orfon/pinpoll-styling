@@ -65,7 +65,7 @@
    color: $font-on-ci-color;
    background-color: $surrounding-bg-color !important;
    #question {
-      color: white;
+      color: $question-font-color;
       font-size: 20px;
       font-family: 'ORF ON Head';
       font-style: italic;
@@ -128,6 +128,10 @@
             font-size: 40px;
             transition: none;
             opacity: 1 !important;
+         }
+         .top-bar {
+            background-color: $ci-color;
+            color: $font-on-ci-color;
          }
          .top-bar .text, .content-container .text-content {
             font-size: 25px;
