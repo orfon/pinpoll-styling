@@ -15,6 +15,7 @@ $font-on-ci-color: white;
 $quiz-correct: #59b959;
 $quiz-wrong: $ci-color;
 $progress-default-color: #4e658a;
+$overlay-bg: rgba(0, 0, 0, 0.8);
 
 @import "_pinpoll.scss";
 

@@ -1,5 +1,15 @@
 @import "_fonts.scss";
 
+#lead-form {
+   font-family: 'ORF ON';
+   background-color: $ci-color !important;
+   #user-logo {
+      display: none;
+   }
+   #pre-vote-description {
+      margin-top: 25px;
+   }
+}
 
 #app {
    background-color: transparent !important;
@@ -30,9 +40,14 @@
    #undisclosed-result {
       background-color: #eaeaea !important;
       color: $dark-font;
+      font-family: 'ORF ON';
+
+      .userpic {
+         display: none !important;
+      }
    }
    .overlay .content {
-      background-color: rgba(0, 0, 0, 0.8);
+      background-color: $overlay-bg;
       padding: 10px;
       font-family: 'ORF ON Head';
       div {
@@ -43,16 +58,20 @@
             margin-bottom: 15px;
          }
       }
+      button.verification-btn, button.verification-btn:disabled,
+      button.code-send-btn, button.code-send-btn:disabled {
+         background-color: grey !important;
+      }
       button {
-            background-color: $ci-color;
-            color: $dark-font;
+         background-color: $ci-color;
+         color: $dark-font;
       }
    }
    footer {
       min-height: 2.5em !important;
       background-color: $surrounding-bg-color !important;
       .legal > *, #total-result {
-         display: none;
+         display: none !important;
       }
    }
 }
