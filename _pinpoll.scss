@@ -6,10 +6,10 @@
    #user-logo {
       display: none;
    }
-   form.user-font-fill {
+   form.user-accent-bg.user-font-fill {
       background-color: transparent !important;
    }
-   button {
+   form.user-accent-bg.user-font-fill button[type="submit"] {
       color: white !important;
       background-color: black !important;
    }
