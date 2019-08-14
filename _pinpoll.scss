@@ -298,10 +298,14 @@
    background-color: $progress-default-color !important;
 }
 
-.quiz-slider .action-buttons button {
-   font-family: 'ORF ON';
-   color: $font-on-accent-bar-color !important;
-   background-color: $accent-bar-color !important;
+.quiz-slider .action-buttons {
+   width: 80%;
+   button,
+   button > span.user-accent-bg {
+      font-family: 'ORF ON';
+      color: $font-on-ci-color !important;
+      background-color: $accent-bar-color !important;
+   }
 }
 
 body #poll #header #user-logo {
