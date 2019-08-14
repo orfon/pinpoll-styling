@@ -257,12 +257,40 @@
    }
 }
 
-.quiz-slider .quiz-feedback .feedback-result {
-   &.correct {
-   color: $quiz-correct !important;
+.quiz-slider {
+
+   .quiz-feedback {
+
+      .feedback-result {
+         &.correct {
+            color: $quiz-correct !important;
+         }
+         &.wrong {
+            color: $quiz-wrong !important;
+         }
+      }
+      .feedback-title {
+         font-family: 'ORF ON Head';
+         color: black;
+         margin: 10px 0px;
+      }
+      .feedback-text {
+         font-family: 'ORF ON';
+         font-size: 13px;
+         margin-left: 6%;
+         width: 80%;
+      }
+
    }
-   &.wrong {
-   color: $quiz-wrong !important;
+
+   .quiz-score {
+      width: 80%;
+      .quiz-score-header {
+         font-family: 'ORF ON Head';
+      }
+      .quiz-score-feedback, .quiz-score-hint {
+         font-family: 'ORF ON';
+      }
    }
 }
 

@@ -8,7 +8,7 @@ building:
 
 for development, call above once and then keep watching:
 
-scss oe3.scss:build/embed.css && scss --watch fm4.scss:build/embed.css
+scss oe3.scss:build/embed.css && scss --watch oe3.scss:build/embed.css
 
 ## test
 
