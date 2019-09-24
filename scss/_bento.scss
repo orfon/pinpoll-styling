@@ -1,0 +1,69 @@
+#app > #embed.bento {
+    #header {
+        background-color: $surrounding-bg-color;
+        color: $question-font-color;
+
+        #question {
+            color: $question-font-color;
+            font-family: 'ORF ON Head';
+            font-style: italic;
+            font-weight: 500;
+            font-size: 20px;
+            line-height: 22px;
+            overflow: visible !important;
+        }
+    }
+
+    #poll-body {
+        background-color: $bg-color;
+
+        .answer {
+            background-color: $bar-not-voted-bg !important;
+            color: $dark-font;
+            font-family: 'ORF ON Head';
+            &:hover {
+                color: $font-on-ci-color;
+                background-color: $ci-color !important;
+            }
+            &:after {
+                border-color: $ci-color;
+            }
+        }
+    }
+
+    footer {
+        background-color: $surrounding-bg-color;
+        .powered {
+            display: none;
+        }
+        .legal {
+            display: none;
+        }
+    }
+
+    #post-voted-answer-block {
+        #lead-form {
+            background-color: $soft-bg-color !important;
+
+            form {
+                background-color: transparent !important;
+                font-family: 'ORF ON' !important;
+
+                button {
+                    background-color: $bar-not-voted-bg !important;
+                    color: $dark-font!important;
+                    &:hover {
+                        color: $font-on-ci-color;
+                        background-color: $ci-color !important;
+                    }
+                }
+            }
+        }
+        #user-logo {
+            display: none;
+        }
+        #vote-form {
+            background-color: transparent !important;
+        }
+    }
+}
