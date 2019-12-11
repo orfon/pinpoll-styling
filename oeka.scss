@@ -1,0 +1,19 @@
+/** 13-11-2019 1 **/
+$bg-color: #D6DCDE;
+$second-ci-color: #D32824;
+$surrounding-bg-color: #9E0B0F;
+$question-font-color: white;
+$dark-font: black;
+$soft-bg-color: #eaeaea;
+$bar-not-voted-bg: rgba(255,255,255,0.72);
+$ci-color: #D32824;
+$bar-color: white;
+$accent-bar-color: $ci-color;
+$font-on-accent-bar-color: white;
+$font-on-ci-color:white;
+$quiz-correct: #151b15;
+$quiz-wrong: #d54d4d;
+$progress-default-color: $ci-color;
+$overlay-bg: rgba(0, 0, 0, 0.8);
+
+@import "scss/_pinpoll.scss";
