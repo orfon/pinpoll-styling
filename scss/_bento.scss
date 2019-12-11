@@ -24,6 +24,8 @@
             background-color: $bar-not-voted-bg !important;
             color: $dark-font;
             font-family: 'ORF ON Head';
+            font-weight: 700;
+            font-style: italic;
             &:hover {
                 color: $font-on-ci-color;
                 background-color: $ci-color !important;
