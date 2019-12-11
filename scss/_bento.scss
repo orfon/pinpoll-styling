@@ -18,6 +18,7 @@
         background-color: $bg-color;
         #answers {
             margin-top: 10px;
+            margin-bottom: 10px;
         }
         .answer {
             background-color: $bar-not-voted-bg !important;
@@ -46,14 +47,32 @@
 
     #post-voted-answer-block {
         #lead-form {
+            font-family: 'ORF ON' !important;
             background-color: $soft-bg-color !important;
 
+            .post-vote-header {
+                background-color: $ci-color;
+                color: $font-on-ci-color;
+                padding: 10px 20px;
+            }
             form {
                 background-color: transparent !important;
                 font-family: 'ORF ON' !important;
-
+                .form-row {
+                    flex-wrap: wrap;
+                }
+                .label-side, .input-side {
+                    width: 100%;
+                    margin-bottom: 5px;
+                }
+                .input-side {
+                    margin-bottom: 10px;
+                    input, textarea {
+                        background-color: white !important;
+                    }
+                }
                 button {
-                    background-color: $bar-not-voted-bg !important;
+                    background-color: $ci-color !important;
                     color: $dark-font!important;
                     &:hover {
                         color: $font-on-ci-color;
