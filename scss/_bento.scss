@@ -60,6 +60,7 @@
             form {
                 background-color: transparent !important;
                 font-family: 'ORF ON' !important;
+                color: $dark-font !important;
                 .form-row {
                     flex-wrap: wrap;
                 }
@@ -75,9 +76,9 @@
                 }
                 button {
                     background-color: $ci-color !important;
-                    color: $dark-font!important;
+                    color: $dark-font !important;
                     &:hover {
-                        color: $font-on-ci-color;
+                        color: $font-on-ci-color !important;
                         background-color: $ci-color !important;
                     }
                 }
