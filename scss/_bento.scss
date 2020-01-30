@@ -47,6 +47,15 @@
         }
     }
 
+    #undisclosed-result{
+        font-family: 'ORFON ON' !important;
+        background-color: transparent !important;
+
+        .userpic {
+            display: none;
+        }
+    }
+
     #post-voted-answer-block {
         #lead-form {
             font-family: 'ORF ON' !important;
