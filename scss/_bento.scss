@@ -48,8 +48,12 @@
     }
 
     #undisclosed-result{
-        font-family: 'ORFON ON' !important;
         background-color: transparent !important;
+
+        font-family: 'ORF ON' !important;
+        h2, p {
+            font-family: 'ORF ON' !important;
+        }
 
         .userpic {
             display: none;
@@ -85,7 +89,7 @@
                 }
                 button {
                     background-color: $ci-color !important;
-                    color: $dark-font !important;
+                    color: $font-on-ci-color !important;
                     &:hover {
                         color: $font-on-ci-color !important;
                         background-color: $ci-color !important;

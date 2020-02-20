@@ -74,3 +74,21 @@
         background-color: $accent-bar-color !important;
     }
 }
+
+@if $isQuizAnswerDisabled {
+    #quiz #poll-body.classic .answer .percent-count {
+        display: none;
+    }
+    .quiz-score-hint {
+        display: none;
+    }
+
+    .quiz-score-feedback {
+        display:none;
+
+    }
+
+    .quiz-score{
+        display:none;
+    }
+}

@@ -66,7 +66,7 @@
          font-weight: 700;
          font-style: italic;
          div {
-            color: $font-on-ci-color;
+            color: $font-on-accent-bar-color;
             font-family: 'ORF ON';
             &.title {
                font-family: 'ORF ON Head';
@@ -81,8 +81,8 @@
             background-color: grey !important;
          }
          button {
-            background-color: $ci-color;
-            color: $dark-font;
+            background-color: $ci-color !important;
+            color: $dark-font !important;
          }
       }
       footer {
@@ -136,7 +136,7 @@
                   background-color: $bar-color !important;
                }
                &.voted-on {
-                  color: $font-on-ci-color !important;
+                  color: $dark-font !important;
                   opacity: 1;
                   .result-bar {
                      background-color: $ci-color !important;
