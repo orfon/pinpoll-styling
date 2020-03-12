@@ -2,6 +2,10 @@
 @import "_quiz.scss";
 @import "_bento.scss";
 
+body {
+    user-select: auto;
+}
+
 #app, #app #embed #poll {
    background-color: transparent !important;
 }
