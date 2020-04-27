@@ -1,0 +1,36 @@
+/** 11-12-2019 1 **/
+$bg-color: #e9ebf0;
+$ci-color: #fee559;
+$font-family: 'ORF ON Head';
+
+$surrounding-bg-color: $ci-color;
+$surrounding-font-color: black;
+
+$question-font: 1.5rem $font-family;
+$question-line-height: 1.8125rem;
+
+$answer-background-unvoted: white;
+$answer-font-color-unvoted: #466199;
+$answer-font: italic 700 1.25rem $font-family;
+
+$answer-font-color-voted: black;
+$answer-font: bold 1.5rem "ORF ON Condensed";
+
+$result-percent-font: italic bold 1.5rem "ORF ON Head";
+$result-votes-font: 0.9375rem "ORF ON Condensed";
+
+$bar-background-unvoted: #ffffff;
+
+
+$soft-bg-color: #ff0000;
+$xbar-not-voted-bg: #ffffff;
+$bar-color: white;
+$accent-bar-color: $ci-color;
+$font-on-accent-bar-color: black;
+$font-on-ci-color: black;
+$quiz-correct: #151b15;
+$quiz-wrong: #d54d4d;
+$progress-default-color: $ci-color;
+$overlay-bg: rgba(0, 0, 0, 0.7);
+
+@import "scss/_pinpoll.scss";

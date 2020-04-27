@@ -1,0 +1,45 @@
+/** legacy variables to not break old definitions **/
+@if global-variable-exists("surrounding-font-color") and global-variable-exists("question-font-color")!=true {
+        $question-font-color: $surrounding-font-color !global !default;
+} @else {
+        $question-font-color: #990000 !global !default;
+}
+$dark-font: black !default;
+$bar-not-voted-bg: #009999 !default;
+$surrounding-bg-color: #009900 !default;
+$font-on-ci-color: black !default;
+$font-family: 'ORF ON Head';
+
+/** configuration defaults start here **/
+
+/** the underlying background **/
+$bg-color: #999900 !default;
+
+/** bar-styling **/
+$bar-background-unvoted: $bar-not-voted-bg !default;
+$bar-color: #ffffff;
+
+/** surrounding is the header and the footer of the poll **/
+$surrounding-background: $surrounding-bg-color !default;
+$surrounding-font-color: $question-font-color !default;
+
+$question-font: italic 500 20px $font-family !default;
+$question-line-height: 22px !default;
+
+/** answeres and their colors **/
+$answer-background-unvoted: #009999 !default;
+$answer-font-color-unvoted: $dark-font !default;
+$answer-font: italic 700 1.45em $font-family !default;
+
+$answer-background-hover: $ci-color !default;
+$answer-font-color-hover: $font-on-ci-color !default;
+
+$answer-background-voted: $answer-background-unvoted !default;
+$answer-font-color-voted: $answer-font-color-unvoted !default;
+
+/** result-font-defaults **/
+$result-percent-font: $answer-font !default;
+$result-votes-font: $answer-font !default;
+
+
+$isQuizAnswerDisabled: false !default;
