@@ -1,15 +1,12 @@
 #app > #embed.bento {
     #header {
-        background-color: $surrounding-bg-color;
-        color: $question-font-color;
+        background-color: $surrounding-background;
+        color: $surrounding-font-color;
 
         #question {
             color: $question-font-color;
-            font-family: 'ORF ON Head';
-            font-style: italic;
-            font-weight: 500;
-            font-size: 20px;
-            line-height: 22px;
+            font: $question-font;
+            line-height: $question-line-height;
             overflow: visible !important;
         }
     }
@@ -21,23 +18,38 @@
             margin-bottom: 10px;
         }
         .answer {
-            background-color: $bar-not-voted-bg !important;
-            color: $dark-font;
-            font-family: 'ORF ON Head';
-            font-weight: 700;
-            font-style: italic;
+            background-color: $answer-background-unvoted !important;
+            color: $answer-font-color-unvoted;
+            font: $answer-font;
             &:hover {
-                color: $font-on-ci-color;
-                background-color: $ci-color !important;
+                color: $answer-font-color-hover;
+                background-color: $answer-background-hover !important;
             }
             &:after {
                 border-color: $ci-color;
             }
+            .answer-text {
+                margin: auto;
+                text-align: center;
+            }
+        }
+        .answer.result-mode {
+            color: $answer-font-color-voted;
+            background-color: $answer-background-voted;
+        }
+        .percent-count {
+            padding-top: 5px;
+            font: $result-percent-font;
+        }
+        .votes-count {
+            padding-top: 5px;
+            xfont-size: result-votes-font-size;
+            font: $result-votes-font;
         }
     }
 
     footer {
-        background-color: $surrounding-bg-color;
+        background-color: $surrounding-background;
         height: 40px;
         .powered {
             display: none;
