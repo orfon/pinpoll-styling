@@ -125,6 +125,7 @@ body {
       }
       #poll-body {
          .answer {
+            min-height: 41px;
             opacity: 0.7;
             color: $dark-font;
             &:not(.result-mode) {
