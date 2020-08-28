@@ -41,7 +41,7 @@
         }
         .feedback-text {
             font-family: 'ORF ON';
-            font-size: 13px;
+            font-size: 13px !important;
             margin-left: 6%;
             width: 80%;
         }
@@ -55,8 +55,9 @@
             font-weight: 700;
             font-style: italic;
         }
-        .quiz-score-feedback, .quiz-score-hint {
+        .quiz-score-feedback, .quiz-score-hint.large-text {
             font-family: 'ORF ON';
+            font-size: 13px !important;
         }
     }
 }
