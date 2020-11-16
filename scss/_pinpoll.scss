@@ -110,11 +110,9 @@ body {
          background-color: $surrounding-bg-color !important;
          #question {
             color: $question-font-color;
-            font-size: 20px;
-            font-family: 'ORF ON Head';
-            font-weight: 700;
-            font-style: italic;
+            font: $question-font;
             overflow: visible !important;
+            text-align: left !important;
          }
       }
       .answer .text {
@@ -138,6 +136,7 @@ body {
             }
             &.result-mode {
                opacity: 1;
+               background-color: rgba($bar-color, .5) !important;
                .result-bar {
                   background-color: $bar-color !important;
                }
